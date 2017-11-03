@@ -4,8 +4,8 @@ html {
 	display: block;
 }
 
-h1, h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+* {
+	font-family: 'Rozha One', serif;
 }
 
 header {
@@ -65,12 +65,29 @@ header {
 	height: 500px;
 }
 
-#BodyAbout1 {
+#BodyAbout1Whole {
 	position: absolute;
 	top: 20px;
 	left: 5px;
 	height: 420px;
 	width: 650px;
+}
+
+#BodyAboutContainer {
+	width: 580px;
+	margin: auto;
+}
+
+#AboutMe {
+	height: 43px;
+	padding-top: 22px;
+	border-bottom: 3px solid #777777;
+	font-size: 170%;
+}
+
+#image {
+	height: 217px;
+	padding-top: 27px;
 }
 
 #BodyConnect1 {
@@ -82,11 +99,26 @@ header {
 	text-align: center;
 }
 
+#BodyConnectContainer {
+	width: 240px;
+	margin: auto;
+}
+
+#connect {
+	height: 43px;
+	padding-top: 22px;
+	text-align: center;
+	font-size: 170%;
+	border-bottom: 3px solid #777777;
+}
+
 /**CSS FOR FOOTER**/
 
 #FooterMain {
 	background-color: #666666;
-	height: 75px;
+	height: 55px;
 	text-align: center;
 	border-top: 9px solid #4aaaa5;
+	color: white;
+	padding-top: 20px;
 }
